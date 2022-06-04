@@ -1,0 +1,4 @@
+{
+Warga::where('NIK',$id)->delete();
+return redirect()->route('warga.index');
+}
